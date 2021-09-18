@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_splash_screen"
+    android:layout_width="match_parent"
+    android:background="#ffffff"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+
+    >
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="150dp"
+        android:layout_marginTop="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/ic_launcher"/>
+    <TextView
+        android:id="@+id/title"
+        android:layout_below="@id/logo"
+        android:layout_centerHorizontal="true"
+        android:textStyle="normal"
+        android:textColor="@android:color/primary_text_light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Serasi"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_marginBottom="40dp"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Versi 1.0"/>
+
+</RelativeLayout>
